@@ -49,5 +49,17 @@
     .or {
         display: flex;
         flex-direction: row;
+        margin-bottom: 1.2rem;
+        align-items: center;
+        span {
+            color: $light-grey;
+            padding: 0 0.8rem;
+        }
+    }
+    .bar {
+        flex: auto;
+        border: none;
+        height: 1px;
+        background: #aaa;
     }
 }
