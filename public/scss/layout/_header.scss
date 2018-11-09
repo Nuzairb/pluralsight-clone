@@ -18,3 +18,22 @@
 .right {
     flex: 1;
 }
+
+.showcase {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(dist/images/login-bg.jpg) no-repeat center center / cover;
+    height: 100vh;
+    text-align: center;
+    &-text {
+        font-size: 3rem;
+        width: 100%;
+        color: $white;
+        margin-bottom: 1.5rem;
+    }
+    .secondary-btn {
+        width: 60%;
+        margin: auto;
+    }
+}
