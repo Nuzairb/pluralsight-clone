@@ -7,13 +7,14 @@
     display: block;
     border: 0;
     border-radius: 2px;
-    font-weight: 500;
+    font-weight: 300;
     background: $orange;
     color: $white;
     text-decoration: none;
     cursor: pointer;
     text-align: center;
     transition: all 0.5s;
+    vertical-align: middle;
 }
 
 .primary-btn:hover {
@@ -21,18 +22,20 @@
 }
 
 .secondary-btn {
+    font-size: 1rem;
     padding: 0.7rem 1rem;
     height: 2.7rem;
     display: block;
     border: 1px solid #f4f4f4;
     border-radius: 2px;
-    font-weight: 500;
+    font-weight: 300;
     background: none;
     color: $white;
     text-decoration: none;
     cursor: pointer;
     text-align: center;
     transition: all 0.5s;
+    vertical-align: middle;
 }
 
 .secondary-btn:hover {
